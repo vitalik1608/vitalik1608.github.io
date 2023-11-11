@@ -1,0 +1,27 @@
+img{
+    width: 250px;
+}
+.right{
+    float: right;
+    background-color: lightgray;
+    border: 1x solid gray;
+    padding: 20px;
+}
+.left{
+    float: left;
+background-color: lightgrey;
+    border: 1px solid gray;
+    padding: 20px;
+}
+.menu{
+    background-color: lightgray;
+    border: 1px solid gray;
+    padding: 20px;
+    width: 300px;
+}
+a{
+    color: darkslategray;
+}
+html{
+    scroll-behavior: smooth;
+}
