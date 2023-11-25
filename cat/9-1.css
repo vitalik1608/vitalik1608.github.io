@@ -1,0 +1,64 @@
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-shadow: 2px 2px 7px lightskyblue;
+}
+
+.content {
+    background-color: hotpink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: lightgrey;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 50px;
+
+}
+
+.header {
+    background-color: hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: blueviolet;
+    margin: 7px;
+}
+body{
+    margin: 0;
+}
+.socio a{
+font-size: 2em;
+color: white;
+margin: 10px;
+}
+.socio a:hover{
+    color: blueviolet;
+}
+.footer{
+    background-color: rgb(29, 29, 29);
+    color:white ;
+    padding: 20px;
+}
