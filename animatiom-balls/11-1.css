@@ -1,0 +1,59 @@
+ h1 {
+     text-align: center;
+     font-family: Dhurjati;
+     font-size: 3em;
+     animation-name: alala;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+ }
+
+ @keyframes alala {
+     0% {
+         color: brown;
+         transform: translate(100px);
+     }
+
+     100% {
+         color: chartreuse;
+         transform: translateX(-100px);
+     }
+
+     10% {
+         color: cornflowerblue;
+     }
+
+     20% {
+         color: cyan;
+     }
+
+     30% {
+         color: coral;
+     }
+
+     40% {
+         color: greenyellow;
+     }
+
+     50% {
+         color: darkolivegreen;
+     }
+     60%{
+        color: indianred;
+     }
+     70%{
+        color: indigo;
+     }
+     80%{
+        color: blueviolet;
+     }
+     90%{
+    color: darkred;
+     }
+     100%{
+        color: darkslateblue;
+     }
+    }
+    h1:hover{
+        animation-play-state: paused;
+    }

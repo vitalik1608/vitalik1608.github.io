@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+.ball{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #CC3F85;
+    border-radius: 100%;
+    animation: dws-bounce 3s linear infinite, dws-moveLeft 25s linear infinite alternate;
+}
+@keyframes dws-bounce{
+    0%{ bottom: 100%;}
+    25%{ bottom: 0; width: 100px; height:100px; background-color: #CC3F85; }
+    30%{ bottom: 0; width: 110px; height:25px; background-color: red; }
+    30%{ bottom: 0; width: 100px; height:100px; }
+    100%{bottom: 90%;}
+}
+@keyframes dws-moveLeft{
+    from{left: 0}
+    to{ left: 100%;} 
+}
+
