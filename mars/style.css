@@ -1,0 +1,46 @@
+img{
+    width: 100%;
+}
+body{
+    background-color: black;
+    color: bisque;
+
+}
+.logo-1{
+    font-size: 7rem;
+    color: coral;
+    font-family: "Poiret One", sans-serif;
+    line-height: 0.8;
+    margin-top: 50px;
+}
+.logo-2{
+    font-size: 1.5rem;
+    color: coral;
+    font-family: "Cormorant Garamond", serif;
+}
+header{
+    background-image: url(fon.png);
+}
+h2{
+    font-family: "Cormorant Garamond", serif;
+}
+p{
+    font-family: "Exo 2", sans-serif;
+}
+.card-body{
+    background-color: chocolate;
+}
+.card{
+    height: 100%;
+    color: antiquewhite;
+    box-shadow: 0px 0px 10px 8px burlywood;
+}
+.card-header{
+    background-color: burlywood;
+color: black;
+}
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: chocolate;
+}
