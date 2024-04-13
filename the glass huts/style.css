@@ -1,0 +1,40 @@
+img{
+    width: 100%;
+}
+.big-photo{
+    background-image: url(banner.jpg);
+    height: 450px;
+    background-position: 40% 50%;
+    background-size: cover;
+    text-align: right;
+    color: aliceblue;
+}
+.hut{
+    background-image:linear-gradient(lightgray,rgba(255, 255, 255, 0.034)),url(the-hut-bg.png);
+    text-align: center;
+    color: aliceblue;
+    height: 300px; 
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 50px 0;
+}
+.teritoriya{
+    background-image:linear-gradient(lightgray,rgba(255, 255, 255, 0.034)),url(the-area.png);
+    text-align: center;
+    color: aliceblue;
+    height: 300px; 
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 50px 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    background-color: rgb(121, 117, 117);
+    color: rgb(230, 237, 243);
+}
+
