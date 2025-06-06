@@ -1,0 +1,259 @@
+img {
+    width: 100%;
+}
+
+body {
+    background: #cacbd4
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    position: fixed;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 1rem;
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.5);
+}
+.text-center{
+    font-family: "Oswald", sans-serif;
+}
+
+
+button {
+    background-color: #0066cc;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #0052a3;
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+h1 {
+    padding: 20px;
+    font-family: "Chivo", sans-serif;
+}
+
+.color-red {
+    color: rgba(102, 102, 227, 0.656);
+}
+
+.brs {
+    border-radius: 20px;
+}
+
+.water {
+    /* transform: rotate(90deg); */
+}
+
+.bg-1 {
+    background-image: url(ripples-344_256.gif);
+}
+
+.bold {
+
+
+    font-weight: 900;
+    margin: 3rem 0;
+
+}
+
+.how-sell-1 {
+    background-color: rgba(114, 114, 244, 0.378);
+    box-shadow: 0px 0px 35px rgba(0, 0, 255, 0.541);
+    text-align: center;
+    color: black;
+    padding: 20px;
+    height: 100%;
+    font-family: "Oswald", sans-serif;
+}
+
+.sell-1 {
+    padding: 10px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.card-rod {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(114, 114, 244, 0.378);
+    padding: 10px;
+}
+
+.card-rod img {
+    width: 80%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+
+.hide-wrap-rod {
+    background-color: #cacbd4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: 0.5s;
+
+    display: none;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+.hide-wrap-reel {
+    background-color: #cacbd4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: 0.5s;
+
+    display: none;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+.hide-wrap-lure {
+    background-color: #cacbd4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: 0.5s;
+
+    display: none;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+.card-lure {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(114, 114, 244, 0.378);
+    padding: 10px;
+}
+
+.card-lure img {
+    width: 80%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+
+}
+
+.card-reel {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(114, 114, 244, 0.378);
+    padding: 10px;
+}
+
+.card-reel img {
+    width: 80%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.show-rod,
+.show-rod-2,
+.show-rod-3 {
+    cursor: pointer;
+}
+
+
+.show {
+    display: block;
+    height: auto;
+    opacity: 1;
+    width: 100%;
+}
+
+.number {
+    padding: 10px;
+    align-items: center;
+}
+
+.card-text {
+    text-align: center;
+    margin: 10px;
+    font-size: 1.2em;
+    font-family: "Oswald", sans-serif;
+
+}
+
+.chrs {
+    text-align: center;
+    font-size: 2.5em;
+    font-family: "Oswald", sans-serif;
+}
+
+.footer {
+    background-color: #02052b;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.footer p {
+    color: #d5d5d5;
+}
+
+.number {
+
+    margin-right: 10px;
+    font-weight: 900;
+}
+
+.magaz {
+    font-size: 1.5em;
+    margin: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+.ttt {
+    font-size: 3em;
+    margin: 30px;
+    font-family: "Oswald", sans-serif;
+}
+.socio-link{
+    font-size: 2em;
+    padding: 10px;
+    color: white;
+}
+.ddd{
+     font-family: "Oswald", sans-serif;
+     padding: 10px;
+     margin: 15px;
+}
